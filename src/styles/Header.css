@@ -1,0 +1,125 @@
+/* button and search container */
+.button{
+ padding: 5px 10px;
+ width: 100%;
+ /* background: green; */
+ color: white;
+ font-family:'Open Sans';
+ font-size: 10px;
+ border: none;
+}
+
+.blue {
+ background: #00a8e5;
+}
+
+.green {
+ background: #8dc63f;
+}
+
+header{
+ /* padding: 10PX; */
+ /* background-color: red; */
+}
+
+.header-search {
+ background: #f1f1f1;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+img {
+ width: 250px;
+ height: auto;
+ padding: 0;
+ /* background: blue; */
+ padding-left: 20px;
+}
+
+.search-login-container {
+ /* background: green; */
+ width: 200px;
+ /* background: teal; */
+ padding-right: 30px;
+}
+
+.login{
+  /* background-color: yellow; */
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+.login .button:first-child {
+  margin-right: 10px;
+}
+
+.searchbar {
+ display: flex;
+
+}
+.searchbar input {
+ width: 100%;
+ padding: 5px;
+ /* background-color: red; */
+ float: left;
+ width: 100%;
+ border: 1px solid #0072bc;
+ padding: 10px;
+ height: 25px;
+ border-radius: 5px;
+ outline: none;
+ color: #9DBFAF;
+}
+
+
+
+
+/* nav bar */
+
+nav{
+  background-color: #21597A;
+  /* width: 10px; */
+  text-align: center;
+
+}
+nav li{
+  display: inline;
+  padding: 11px 5px;
+  /* background-color: teal; */
+  /* border-bottom: 12px solid green; */
+}
+
+nav li.active {
+  border-bottom: 12px solid #00a8e5;
+  /* background-color: red; */
+}
+a {
+  text-decoration: none;
+  font-family: 'Open sans';
+  margin: 25px;
+  color: white;
+  opacity: .75;
+  cursor: pointer;
+}
+
+a:hover{
+  color:#00a8e5;
+  text-decoration: none;
+}
+
+nav ul{
+  /* background-color: red; */
+  /* margin-left: 120px; */
+  /* display: center; */
+  margin: 0 auto;
+  /* background-color: red; */
+  /* width: 10px; */
+  padding:10px 0;
+  /* padding-bottom: 0; */
+  display: inline-block;
+  border-bottom: 12px solid #0072bc;
+  width: 100vw;
+
+
+}

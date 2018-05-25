@@ -1,0 +1,40 @@
+
+ /* slideshow */
+.item{
+  /* background-color: green; */
+  width: 100vw;
+  height: 500px;
+  margin: 0;
+  padding: 0px;
+
+}
+.carousel{
+  /* background-color: pink; */
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+
+
+}
+.container{
+  /* background-color: yellow; */
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+img{
+  padding: 0;
+  margin:0;
+
+}
+
+a.left.carousel-control{
+  /* background-color: red; */
+  margin: 0;
+  height: 500px;
+}
+a.right.carousel-control{
+  /* background-color: red; */
+  margin: 0;
+  height: 500px;
+}
